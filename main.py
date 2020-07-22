@@ -1,12 +1,14 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-driver = webdriver.Firefox()
-driver.get("http://www.python.org")
-assert "Python" in driver.title
-elem = driver.find_element_by_name("q")
-elem.clear()
-elem.send_keys("pycon")
-elem.send_keys(Keys.RETURN)
-assert "No results found." not in driver.page_source
-driver.close()
+driver = webdriver.Chrome()
+
+#Auto login linkedin
+driver.get("https://www.linkedin.com/login")
+
+username = driver.find_element_by_id("username")
+username.send_keys("put your email here")
+
+password = driver.find_element_by_id("password")
+password.send_keys("put your password here")
+password.send_keys(Keys.RETURN)
