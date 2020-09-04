@@ -2,7 +2,7 @@
 
 - `pipenv shell`
 - `pipenv install`
-- (Configure selenium)[ https://selenium-python.readthedocs.io/installation.html]
+- [Configure selenium](https://selenium-python.readthedocs.io/installation.html)
 
 
 
