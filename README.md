@@ -1,4 +1,4 @@
-##SETUP
+## SETUP
 
 - `pipenv shell`
 - `pipenv install`
@@ -6,5 +6,5 @@
 
 
 
-## AUTO LOGIN LINKEDIN WITH HEADLESS BROWSER
+### AUTO LOGIN LINKEDIN WITH HEADLESS BROWSER
 `python3 main.py --username=<enter your email> --password=<enter your password>`
